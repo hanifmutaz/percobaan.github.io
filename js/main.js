@@ -88,6 +88,18 @@
 
         portfolioIsotope.isotope({filter: $(this).data('filter')});
     });
+   
+    // Certificate isotope and filter
+    var certificateIsotope = $('.certificate-container').isotope({
+        itemSelector: '.certificate-item',
+        layoutMode: 'fitRows'
+    });
+    $('#certificate-flters li').on('click', function () {
+        $("#certificate-flters li").removeClass('active');
+        $(this).addClass('active');
+
+        certificateIsotope.isotope({filter: $(this).data('filter')});
+    });
     
     
     // Back to top button
