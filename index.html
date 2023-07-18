@@ -24,6 +24,7 @@
     <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
     <link href="css/style.css" rel="stylesheet">
 </head>
 
@@ -47,9 +48,10 @@
                 <a href="#skill" class="nav-item nav-link">Skill</a>
                 <!-- <a href="#service" class="nav-item nav-link">Service</a> -->
                 <a href="#portfolio" class="nav-item nav-link">Portfolio</a>
+                <a href="#certificate" class="nav-item nav-link">Certificates</a>
                 <!-- <a href="#testimonial" class="nav-item nav-link">Review</a> -->
                 <!-- <a href="#blog" class="nav-item nav-link">Blog</a> -->
-                <a href="#contact" class="nav-item nav-link">Contact</a>
+                <!-- <a href="#contact" class="nav-item nav-link">Contact</a> -->
             </div>
             <!-- <a href="" class="btn btn-outline-primary d-none d-lg-block">Hire Me</a> -->
         </div>
@@ -87,7 +89,7 @@
                     <h3 class="text-white font-weight-normal mb-3">I'm</h3>
                     <h1 class="display-3 text-uppercase text-primary mb-2" style="-webkit-text-stroke: 2px #ffffff;">Hanif Mu'taz</h1>
                     <h1 class="typed-text-output d-inline font-weight-lighter text-white"></h1>
-                    <div class="typed-text d-none">Web Developer, Front End Developer, Gammers, Teacher</div>
+                    <div class="typed-text d-none">Web Developer, Teacher</div>
                     <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
                         <!-- <a href="" class="btn btn-outline-light mr-5">Download CV</a> -->
                         <!-- <button type="button" class="btn-play" data-toggle="modal"
@@ -342,103 +344,42 @@
 
 
     <!-- Portfolio Start -->
-    <div class="container-fluid pt-5 pb-3" id="portfolio">
+    <div class="container-fluid pt-5" id="portfolio">
         <div class="container">
             <div class="position-relative d-flex align-items-center justify-content-center">
                 <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Gallery</h1>
                 <h1 class="position-absolute text-uppercase text-primary">My Portfolio</h1>
             </div>
             <div class="row">
-                <div class="col-12 text-center mb-2">
-                    <ul class="list-inline mb-4" id="portfolio-flters">
-                        <li class="btn btn-sm btn-outline-primary m-1 active"  data-filter="*">All</li>
-                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".first">MS. Excel</li>
-                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".second">Back-End</li>
-                        <!-- <li class="btn btn-sm btn-outline-primary m-1" data-filter=".third">Marketing</li> -->
-                    </ul>
+                <div class="col-lg-4 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="img/RPP.jpg" alt="">
+                    </div>
+                    <h5 class="font-weight-medium mb-4">RPP dengan menggunakan rumus VLOOKUP</h5>
+                    <a class="btn btn-sm btn-outline-primary py-2" href="https://docs.google.com/spreadsheets/d/16TmwXKeyaZKSuYAZ8puCRITBVvYfddob/edit#gid=950231280" target="_blank"">Read More</a>
                 </div>
-            </div>
-            <div class="row portfolio-container">
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="img/portfolio-1.jpg" alt="">
-                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
-                            <a href="img/portfolio-1.jpg" data-lightbox="portfolio">
-                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
-                            </a>
+                <!-- <div class="col-lg-4 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="img/blog-2.jpg" alt="">
+                        <div class="blog-date">
+                            <h4 class="font-weight-bold mb-n1">01</h4>
+                            <small class="text-white text-uppercase">Jan</small>
                         </div>
                     </div>
+                    <h5 class="font-weight-medium mb-4">Rebum lorem no eos ut ipsum diam tempor sed rebum elitr ipsum</h5>
+                    <a class="btn btn-sm btn-outline-primary py-2" href="">Read More</a>
                 </div>
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="img/portfolio-2.jpg" alt="">
-                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
-                            <a href="img/portfolio-2.jpg" data-lightbox="portfolio">
-                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
-                            </a>
+                <div class="col-lg-4 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="img/blog-3.jpg" alt="">
+                        <div class="blog-date">
+                            <h4 class="font-weight-bold mb-n1">01</h4>
+                            <small class="text-white text-uppercase">Jan</small>
                         </div>
                     </div>
-                </div>
-                <!-- <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="img/portfolio-3.jpg" alt="">
-                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
-                            <a href="img/portfolio-3.jpg" data-lightbox="portfolio">
-                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
-                            </a>
-                        </div>
-                    </div>
+                    <h5 class="font-weight-medium mb-4">Rebum lorem no eos ut ipsum diam tempor sed rebum elitr ipsum</h5>
+                    <a class="btn btn-sm btn-outline-primary py-2" href="">Read More</a>
                 </div> -->
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="img/portfolio-4.jpg" alt="">
-                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
-                            <a href="img/portfolio-4.jpg" data-lightbox="portfolio">
-                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="img/portfolio-5.jpg" alt="">
-                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
-                            <a href="img/portfolio-5.jpg" data-lightbox="portfolio">
-                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <!-- <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="img/portfolio-6.jpg" alt="">
-                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
-                            <a href="img/portfolio-6.jpg" data-lightbox="portfolio">
-                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div> -->
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="img/portfolio-4.jpg" alt="">
-                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
-                            <a href="img/portfolio-4.jpg" data-lightbox="portfolio">
-                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="img/portfolio-5.jpg" alt="">
-                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
-                            <a href="img/portfolio-5.jpg" data-lightbox="portfolio">
-                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
@@ -451,48 +392,66 @@
                 <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Gallery</h1>
                 <h1 class="position-absolute text-uppercase text-primary">My Certificates</h1>
             </div>
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col-12 text-center mb-2">
                     <ul class="list-inline mb-4" id="certificate-flters">
                         <li class="btn btn-sm btn-outline-primary m-1 active"  data-filter="*">All</li>
                         <li class="btn btn-sm btn-outline-primary m-1" data-filter=".satu">MS. Excel</li>
                         <li class="btn btn-sm btn-outline-primary m-1" data-filter=".dua">Back-End</li>
-                        <!-- <li class="btn btn-sm btn-outline-primary m-1" data-filter=".tiga">Marketing</li> -->
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".tiga">Marketing</li>
                     </ul>
                 </div>
-            </div>
+            </div> -->
             <div class="row certificate-flters">
                 <div class="col-lg-4 col-md-6 mb-4 certificate-item satu">
                     <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="img/portfolio-1.jpg" alt="">
-                        <div class="certificate-btn bg-primary d-flex align-items-center justify-content-center">
-                            <a href="img/portfolio-1.jpg" data-lightbox="certificate">
-                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
-                            </a>
-                        </div>
+                        <a href="https://www.dicoding.com/certificates/ERZRG1K3QPYV" target="_blank">
+                            <img class="img-fluid rounded w-100" src="img/BelajarMembuatAplikasiBack-EndUntukPemula.jpg" alt="">
+                        </a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 mb-4 certificate-item dua">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="img/portfolio-2.jpg" alt="">
-                        <div class="certificate-btn bg-primary d-flex align-items-center justify-content-center">
-                            <a href="img/portfolio-2.jpg" data-lightbox="certificate">
-                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <!-- <div class="col-lg-4 col-md-6 mb-4 certificate-item tiga">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="img/portfolio-3.jpg" alt="">
-                        <div class="certificate-btn bg-primary d-flex align-items-center justify-content-center">
-                            <a href="img/portfolio-3.jpg" data-lightbox="certificate">
-                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div> -->
                 <div class="col-lg-4 col-md-6 mb-4 certificate-item satu">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <a href="https://www.dicoding.com/certificates/N9ZO6OYJYXG5" target="_blank">
+                            <img class="img-fluid rounded w-100" src="img/CloudPractitionerEssentiais.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 certificate-item satu">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <a href="https://www.dicoding.com/certificates/1OP801Q7LXQK" target="_blank">
+                            <img class="img-fluid rounded w-100" src="img/dasarPemrogramanJavaScript.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 certificate-item satu">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <a href="https://www.dicoding.com/certificates/QLZ9KN81EZ5D" target="_blank">
+                            <img class="img-fluid rounded w-100" src="img/pengenalanKeLogikaPemrograman.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/howToImproveYourPulicSpeaking.jpg" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/howToImproveYourPulicSpeaking.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/SeccessThroughGoingTheExtraMile.jpg" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/SeccessThroughGoingTheExtraMile.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-lg-4 col-md-6 mb-4 certificate-item satu">
                     <div class="position-relative overflow-hidden mb-2">
                         <img class="img-fluid rounded w-100" src="img/portfolio-4.jpg" alt="">
                         <div class="certificate-btn bg-primary d-flex align-items-center justify-content-center">
@@ -511,7 +470,7 @@
                             </a>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <!-- <div class="col-lg-4 col-md-6 mb-4 certificate-item tiga">
                     <div class="position-relative overflow-hidden mb-2">
                         <img class="img-fluid rounded w-100" src="img/portfolio-6.jpg" alt="">
@@ -615,7 +574,7 @@
 
 
     <!-- Contact Start -->
-    <div class="container-fluid py-5" id="contact">
+    <!-- <div class="container-fluid py-5" id="contact">
         <div class="container">
             <div class="position-relative d-flex align-items-center justify-content-center">
                 <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Contact</h1>
@@ -658,7 +617,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Contact End -->
 
 
@@ -667,6 +626,7 @@
         <div class="container text-center py-5">
             <div class="d-flex justify-content-center mb-4">
                 <!-- <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-twitter"></i></a> -->
+                <a class="btn btn-light btn-social mr-2" href="mailto:hanifmutaz@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
                 <a class="btn btn-light btn-social mr-2" href="https://wa.me/628999314534" target="_blank"><i class="fab fa-whatsapp"></i></a>
                 <!-- <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-facebook-f"></i></a> -->
                 <a class="btn btn-light btn-social mr-2" href="https://www.linkedin.com/mwlite/in/hanifmutaz" target="_blank"><i class="fab fa-linkedin-in"></i></a>
