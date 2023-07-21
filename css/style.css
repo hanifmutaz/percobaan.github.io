@@ -6434,6 +6434,36 @@ button.bg-dark:focus {
   background-color: #1d2124 !important;
 }
 
+.bg-green {
+  background-color: #28a745 !important;
+}
+
+a.bg-green:hover, a.bg-green:focus,
+button.bg-green:hover,
+button.bg-green:focus {
+  background-color: #28a745 !important;
+}
+
+.bg-orange {
+  background-color: #B82121 !important;
+}
+
+a.bg-orange:hover, a.bg-orange:focus,
+button.bg-orange:hover,
+button.bg-orange:focus {
+  background-color: #B82121 !important;
+}
+
+.bg-blue {
+  background-color: #005bff !important;
+}
+
+a.bg-blue:hover, a.bg-blue:focus,
+button.bg-blue:hover,
+button.bg-blue:focus {
+  background-color: #B82121 !important;
+}
+
 .bg-white {
   background-color: #fff !important;
 }
